@@ -1,3 +1,5 @@
+-- The followin code is adapted from https://stackoverflow.com/questions/29092758/how-to-calculate-median-of-a-numeric-sequence-in-google-bigquery-efficiently
+
 CREATE OR REPLACE TABLE broadband.fcc_tech_speed_2017 AS(
        SELECT t.tech_code, tc.tech_name, max(max_down_median) AS max_down_median, max(max_up_median) AS max_up_median
        FROM
