@@ -104,14 +104,3 @@ CREATE OR REPLACE TABLE broadband.acs_blockgroup2_2014(
        county STRING,
        tract STRING,
        block_group STRING)
-
-
-
-
-
-
-
-
-
-
-
