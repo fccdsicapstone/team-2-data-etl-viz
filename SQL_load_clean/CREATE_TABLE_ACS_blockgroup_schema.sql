@@ -32,7 +32,7 @@ CREATE OR REPLACE TABLE broadband.acs_blockgroup_2014(
        renter_occupied INT64,
        state STRING,
        county STRING,
-       track STRING,
+       tract STRING,
        block_group STRING)
 
 
@@ -71,7 +71,7 @@ CREATE OR REPLACE TABLE broadband.acs_blockgroup_2015(
        renter_occupied INT64,
        state STRING,
        county STRING,
-       track STRING,
+       tract STRING,
        block_group STRING)
 
 
