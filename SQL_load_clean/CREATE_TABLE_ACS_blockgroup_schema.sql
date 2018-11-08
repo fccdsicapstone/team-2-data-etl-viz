@@ -104,3 +104,11 @@ CREATE OR REPLACE TABLE broadband.acs_blockgroup2_2014(
        county STRING,
        tract STRING,
        block_group STRING)
+
+-- create table for acs population csv file
+CREATE OR REPLACE TABLE broadband.acs_blockgroup_pop_2014(
+       population INT64,
+       state STRING,
+       county STRING,
+       tract STRING,
+       block_group STRING)
