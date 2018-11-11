@@ -5,3 +5,8 @@ CREATE OR REPLACE TABLE broadband.acs_blockgroup_pop_2014(
        county STRING,
        tract STRING,
        block_group STRING)
+
+CREATE OR REPLACE TABLE broadband.acs_blockgroup_pop_2014 AS(
+       SELECT DISTINCT *
+       FROM broadband.acs_blockgroup_pop_2014
+)
