@@ -43,7 +43,7 @@ from
   SUM(CASE WHEN tech_code = 50 THEN 1 ELSE 0 END) AS n_of_tech50_servs,
   SUM(CASE WHEN tech_code = 70 THEN 1 ELSE 0 END) AS n_of_tech70_servs,
   SUM(CASE WHEN tech_code = 90 THEN 1 ELSE 0 END) AS n_of_tech90_servs,
-  count(*) as n_of_service_providers, AVG(max_down) as avg_down_spd, AVG(max_up) as avg_up_spd
+  count(*) as n_of_service_providers, AVG(max_down) as avg_down_spd, AVG(max_up) as avg_up_spd, MAX(max_up) as max_up_spd, MAX(max_down) as max_down_spd
 from `fccdsicapstone-218522.broadband.fcc_allyear_latest` 
 group by file_year, block_code, block_group_code) as a
 FULL OUTER JOIN `fccdsicapstone-218522.broadband.census_block` c on a.block_code = c.block_code)
