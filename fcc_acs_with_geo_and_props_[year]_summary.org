@@ -1,0 +1,17 @@
+- perc_urban <- Percent of blocks that are listed in TIGER as Urban (n_of_urban_blk/n_of_blocks) 
+- perc_U_urban <- Percent of blocks that are listed as Urban type U in TIGER (n_of_U_urban_blk/ n_of_blocks) 
+- perc_C_urban <- Percent of blocks that are listed as Urban type C in TIGER (n_of_U_urban_blk/ n_of_blocks) 
+- total_length <- Total amount of roads in meters in a block group 
+- road_density <- Road length normalized by land area (total_length/land_area) 
+- prop_[race] <- Estimated proportion of residents who identify as that race in the block group 
+- prop_enroll_undergrad/grad <- Estimated proportion of residents who are enrolled in undergrad/grad school 
+- prop_educ_high_school/ged/assoc/bachelors/masters/prof_school/dr_school <- Estimated proportion of residents who have attained this level of education 
+- prop_educ_college_educ <- Estimated proportion of residents who have attained at least an associate’s degree (associate_s_degree + bachelor_s_degree + master_s_degree + professional_school_degree + doctorate_degree)/(educational_attainment_total) 
+- prop_educ_min_hs <- Estimated proportion of residents that have at least a high school education (associate_s_degree + bachelor_s_degree + master_s_degree + professional_school_degree + doctorate_degree + ged_or_alternative_credential + regular_high_school_diploma)/(educational_attainment_total) 
+- employment_rate <- Estimated proportion of the labor force that is employed prop_[sex]_[age] <- Estimated proportion of residents of this sex and age range 
+- prop_all_[age] <- Estimated proportion of residents of this age range (prop_[male]_[age] + prop_[female]_[age]) 
+- prop_uninsured <- Estimated proportion of residents uninsured by health care population_density <- Estimated population normalized by land area (population/land_area) avg_n_of_hoco <- Average number of holding companies for a block in this block group 
+- avg_n_of_service_providers <- Average number of service providers for a block in this block group 
+- avg_down_spd <- The average MAXIMUM download speed for blocks in this block group avg_up_spd <- The average MAXIMUM upload speed for blocks in this block group 
+- perc_blk_no_service <- Percentage of blocks in a block group that have no service options (at all) 
+- perc_[tech]_avail <- Percentage of blocks with a provider that provides service with this type of technology (Number of blocks w/ a non-zero number of services with this tech code/Number of blocks) 
