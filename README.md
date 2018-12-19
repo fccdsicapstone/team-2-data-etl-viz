@@ -19,3 +19,10 @@ fcc_allyear_blocklevel_with_geo_agg_[year] | Yearly FCC and GEO data for blocks 
 **fcc_tech_speed_blockgroup_[year]** | Yearly median and mean max download and upload speed by tech categories at blockgroup level
 fund | Cleaned up version of funding data
 tech_code | Tech code and its name
+
+# Analysis and Modeling Scripts
+
+The main [data modeling script](./DataModelingScript.R) can be accessed here.
+
+Python and SQL scripts for analysis can be found in each directory of in this repo.
+
